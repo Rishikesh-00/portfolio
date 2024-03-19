@@ -1,30 +1,38 @@
 import React from "react";
-
+import Desktop from "../assets/desktop.jpeg"
+import Bookly from "../assets/bookly.png"
+import Onlinexam from "../assets/onlinexam.png"
+import tailwindreact from "../assets/tailwindreact.png"
+// import { Link } from "react-scroll";
 const portfolios = [
   {
     id: 1,
-    src: "../assets/photos/img2.png",
+    src:Bookly,
+    des:'MERN Application'
   },
-  {
-    id: 2,
-    src: "../assets/photos/img3.png",
-  },
+  // {
+  //   id: 2,
+  //   src: "../assets/photos/img3.png",
+  // },
   {
     id: 3,
-    src: "../assets/photos/img4.png",
+    src: Onlinexam,
+    des:'Web Application(python)'
   },
   {
     id: 4,
-    src: "../assets/photos/img5.png",
+    src: tailwindreact,
+    des:'Web Application (React & Tailwind)'
   },
   {
     id: 5,
-    src: "../assets/photos/img6.png",
+    src:  Desktop ,
+    des:'Desktop Application (Java & SQL)'
   },
-  {
-    id: 6,
-    src: "../assets/photos/img1.png",
-  }
+  // {
+  //   id: 6,
+  //   src: "../assets/photos/img1.png",
+  // }
 ];
 
 export default function Portfolio() {
@@ -42,20 +50,21 @@ export default function Portfolio() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,des }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+              <div className="flex items-center justify-center p-2">
+                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <Link to="">Demo</Link>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </button> */}
+                <p>{des}</p>
               </div>
             </div>
           ))}
