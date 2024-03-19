@@ -22,7 +22,7 @@ export default function Contact() {
                 <button   className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto items-center rounded-md hover:scale-110 duration-300' ><b>Let's talk</b></button>
             </form>
         </div>
-      </div>
+      </div> 
     </div>
   )
 }
