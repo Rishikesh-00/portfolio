@@ -1,52 +1,62 @@
-import React from 'react'
+import React from 'react';
+import Css from '../assets/css.png'
+import Js from '../assets/js.png'
+import Reactlogo from '../assets/react.png'
+import Html from '../assets/html.png'
+import Mysql from '../assets/mysql.png'
+import Jquerry from '../assets/jquerry.png'
+import Github from '../assets/github.png'
+import Tailwind from '../assets/tailwind.png'
 export default function Experience() {
   // const Experience=()=>{
     const techs=[
       {
         id:1,
-        src:'../assets/html.png',
+        src:Html,
         title:'HTML',
         shadow:'shadow-orange-500'
       },
       {
         id:2,
-        src:'../assets/css.png',
+        src:Css,
         title:'CSS',
         shadow:'shadow-blue-500'
       },
       {
         id:3,
-        src:'../assets/javascript.png',
+        src:Js,
         title:'JavaScript',
         shadow:'shadow-yellow-500'
       },
       {
+        id:7,
+        src:Jquerry,
+        title:'JQuerry',
+        shadow:'shadow-green-500'
+      },
+      {
         id:4,
-        src:'../assets/react.png',
+        src:Reactlogo,
         title:'React',
         shadow:'shadow-blue-600'
       },
+      
       {
         id:5,
-        src:'../assets/tailwind.png',
+        src:Tailwind,
         title:'Tailwind',
         shadow:'shadow-sky-400'
       },
       {
         id:6,
-        src:'../assets/mysql.png',
+        src:Mysql,
         title:'MySQL',
         shadow:'shadow-blue-400'
       },
-      {
-        id:7,
-        src:'../assets/mongo.png',
-        title:'MongoDB',
-        shadow:'shadow-green-500'
-      },
+      
       {
         id:8,
-        src:'../assets/github.jpeg',
+        src:Github,
         title:'GitHub',
         shadow:'shadow-gray-400'
       }
