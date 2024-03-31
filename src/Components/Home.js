@@ -15,7 +15,7 @@ export default function Home() {
           Hey, my name is Rishikesh. Currently, I am pursuing MCA. I love to work on applications using technologies like React, Tailwind CSS, JavaScript, and MySQL.
           </p>
           <div className='flex'>
-            <Link to='portfolio' duration={500} smooth className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor- group'>Portfolio  <span className='group-hover:rotate-90 duration-300 '><MdKeyboardArrowRight size={25} className='ml-1'/></span></Link>
+            <Link to='portfolio' duration={500} smooth className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor- group cursor-pointer'>Portfolio  <span className='group-hover:rotate-90 duration-300 '><MdKeyboardArrowRight size={25} className='ml-1'/></span></Link>
             
 
             {/* <div class="m-3">
