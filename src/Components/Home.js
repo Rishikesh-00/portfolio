@@ -4,7 +4,8 @@ import Myimage from "../assets/pro.jpeg";
 import { Link } from 'react-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-// import { GoDownload } from "react-icons/go";
+import Resume from "../assets/resume.pdf"
+import { GoDownload } from "react-icons/go";
 // import hero from ".//assets/hero.jpeg"
 export default function Home() {
   useEffect(() => {
@@ -23,12 +24,12 @@ export default function Home() {
             <Link to='portfolio' duration={500} smooth className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor- group cursor-pointer' data-aos="slide-up" data-aos-duration="500" >Portfolio  <span className='group-hover:rotate-90 duration-300 ' ><MdKeyboardArrowRight size={25} className='ml-1' /></span></Link>
             
 
-            {/* <div class="m-3">
-            <a href="../assets/jan_titcket.pdf" download="resume.pdf" class="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+            <div class="m-3">
+            <a href={Resume} download="resume.pdf" class="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
               <span class="mr-2">Download Resume</span>
               <GoDownload size={25} />
             </a>
-          </div> */}
+          </div>
 
           </div>
         </div>

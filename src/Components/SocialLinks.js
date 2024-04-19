@@ -1,7 +1,8 @@
 import React from 'react'
 import{FaGithub,FaLinkedin} from 'react-icons/fa'
 import{HiOutlineMail} from 'react-icons/hi'
-// import{BsFillPersonLinesFill} from 'react-icons/bs'
+import{BsFillPersonLinesFill} from 'react-icons/bs'
+import Resume from "../assets/resume.pdf"
 export default function SocialLinks() {
     const links=[
         {
@@ -31,19 +32,19 @@ export default function SocialLinks() {
                 </>
             ),
             href:'mailto:keshrishi1789@gmail.com',
-            style:'rounded-br-md',
+            // style:'rounded-br-md',
         },
-        // {
-        //     id:4,
-        //     child:(
-        //         <>
-        //             Resume <BsFillPersonLinesFill size={30}/>
-        //         </>
-        //     ),
-        //     href:'../assets/jan_titcket.pdf',
-        //     style:'rounded-br-md',
-        //     download:true,
-        // }
+        {
+            id:4,
+            child:(
+                <>
+                    Resume <BsFillPersonLinesFill size={30}/>
+                </>
+            ),
+            href:Resume,
+            style:'rounded-br-md',
+            download:true,
+        }
     ]
   return (
     <div>
