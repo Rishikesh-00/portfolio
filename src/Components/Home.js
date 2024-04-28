@@ -4,7 +4,7 @@ import Myimage from "../assets/pro.jpeg";
 import { Link } from 'react-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import Resume from "../assets/resume.pdf"
+import Resume from "../assets/Rishikesh_resume.pdf"
 import { GoDownload } from "react-icons/go";
 // import hero from ".//assets/hero.jpeg"
 export default function Home() {
