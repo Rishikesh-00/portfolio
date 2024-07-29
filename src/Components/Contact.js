@@ -16,7 +16,7 @@ export default function Contact() {
         </div>
 
         <div className='flex justify-center items-center'>
-            <form action="https://getform.io/f/mepEwXaM" method='POST' className='flex flex-col w-full md:w-1/2'>
+            <form action="https://getform.io/f/" method='POST' className='flex flex-col w-full md:w-1/2'>
                 <input type="text" data-aos="slide-up" data-aos-duration="500" name="name" id='nam' placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'  required/>
                 
                 <input type="email" data-aos="slide-up" data-aos-duration="700" name="email" placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' id='mail'  required/>
